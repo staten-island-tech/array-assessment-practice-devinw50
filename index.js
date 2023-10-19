@@ -88,9 +88,10 @@ const books = [
 //const names = books.filter((books)=> books.name == "War and Peace")
 
 //how many books were written before 1900?
-const nine = publishDate.filter (
+const nine = books.filter (
   publishDate < 1900
 );
+console.log (nine)
 
 //was there at least one book published within the last 100 years?
 
