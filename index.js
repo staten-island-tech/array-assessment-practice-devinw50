@@ -71,32 +71,32 @@ const books = [
   },
 ];
 
-const titles = [
-  "To Kill a Mockingbird",
-  "The Great Gatsby",
-  "The Hobbit",
-  "Harry Potter and the Deathly Hallows",
-  "Ulysses",
-  "War and Peace",
-  "Pride and Prejudice",
-  "The Catcher in the Rye",
-  "Great Expectations",
-  "Little Women",
-];
-
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
+//books.forEach ((books)=> console.log(books.authorFirst, books.authorLast, "wrote", books.name, "in", books.publishDate))
+  
+
+
 
 //Sort books from oldest to most recent
 
+
 //sort books alphabetically
 
+
 //Find who wrote War and Peace
+//const names = books.filter((books)=> books.name == "War and Peace")
 
 //how many books were written before 1900?
+const nine = publishDate.filter (
+  publishDate < 1900
+);
 
 //was there at least one book published within the last 100 years?
 
+
 //was every book published within the last 100 years?
 
+
 //print a list of books that "includes" the genre historical
+
