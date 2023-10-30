@@ -73,11 +73,13 @@ const books = [
 
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
-//books.forEach ((books)=> console.log(books.authorFirst, books.authorLast, "wrote", books.name, "in", books.publishDate))
+books.forEach ((books)=> console.log(books.authorFirst, books.authorLast, "wrote", books.name, "in", books.publishDate))
 
 //Sort books from oldest to most recent
-//books.forEach ((books)=> console.log())
-
+const dates = books.sort(function (books1, books2) {
+  return books1.publishDate - books2.publishDate;
+});
+console.log(dates);
 
 //sort books alphabetically
 //const sort =
@@ -85,8 +87,8 @@ const books = [
 //console.log(books);
 
 //Find who wrote War and Peace
-const names = books.filter(((books)=> books.name === "War and Peace"));
-console.log(names);
+//const names = books.filter(((books)=> books.name === "War and Peace"));
+//console.log(names);
 
 //how many books were written before 1900?
 //const nine = books.filter (
