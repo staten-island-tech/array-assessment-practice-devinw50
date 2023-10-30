@@ -87,8 +87,14 @@ console.log(dates);
 //console.log(books);
 
 //Find who wrote War and Peace
+<<<<<<< HEAD
 //const names = books.filter(((books)=> books.name === "War and Peace"));
 //console.log(names);
+=======
+const names = books.filter(((books)=> books.name === "War and Peace"));
+books.forEach((books)=> console.log(books.authorFirst, books.authorLast));
+console.log(names, authorFirst, authorLast);
+>>>>>>> 719bf130639bae9c6f6e8047d184201264104002
 
 //how many books were written before 1900?
 //const nine = books.filter (
